@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://i.ibb.co/fpDSB8X/blue-logo.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <title>RPS Game</title>
+  </head>
+  <body>
+    <div id="main_container">
+      <div id="btnContainer">
+        <button class="btn" value="Rock">✊</button>
+        <button class="btn" value="Paper">✋</button>
+        <button class="btn" value="Scissors">✌️</button>
+      </div>
+      <div id="result_container">
+        <h2 id="player_score"></h2>
+        <p id="msg"></p>
+        <h3 id="result"></h3>
+        <h1 id="total_score"></h1>
+      </div>
+      <div id="end">
+        <button id="end_game">🔴</button>
+      </div>
+    </div>
+  </body>
+  <script src="logic.js"></script>
+</html>
