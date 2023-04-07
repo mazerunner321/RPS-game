@@ -525,7 +525,7 @@ button:hover {
     }
 }
 
-@media all and (max-width: 324px) {
+@media all and (max-width: 464px) {
     #main_container {
         /* border: 1px solid; */
         border-radius: 10px;
@@ -533,8 +533,8 @@ button:hover {
         background: linear-gradient(120deg, #ffd23c 0%, #ffac05 100%);
         width: 70%;
         margin: auto;
-        height: 450px;
-        margin-top: 3.5rem;
+        height: 400px;
+        margin-top: 7rem;
     }
 
     #btnContainer {
@@ -593,6 +593,81 @@ button:hover {
     #end {
         /* border: 1px solid; */
         margin-top: 5rem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 254px) {
+    #main_container {
+        /* border: 1px solid; */
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        background: linear-gradient(120deg, #ffd23c 0%, #ffac05 100%);
+        width: 80%;
+        margin: auto;
+        height: 400px;
+        margin-top: 7.7rem;
+    }
+
+    #btnContainer {
+        /* border: 1px solid; */
+        width: 80%;
+        margin: auto;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    button {
+        background-color: white;
+        border-radius: 50%;
+        border: none;
+        height: 33px;
+        width: 33px;
+        font-size: 13px;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    #result_container {
+        /* border: 1px solid; */
+        height: 150px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    #msg {
+        /* border: 1px solid; */
+        /* height: 50px; */
+        font-size: 13px;
+        opacity: 0.9;
+    }
+
+    #result {
+        /* border: 1px solid; */
+        font-size: 14px;
+    }
+
+    #total_score {
+        /* border: 1px solid; */
+        /* margin-top: 3rem; */
+        padding: 1rem;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    #end {
+        /* border: 1px solid; */
+        margin-top: 4.5rem;
         padding: 1rem;
         display: flex;
         align-items: center;
