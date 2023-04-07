@@ -600,7 +600,7 @@ button:hover {
     }
 }
 
-@media all and (max-width: 254px) {
+@media all and (max-width: 381px) {
     #main_container {
         /* border: 1px solid; */
         border-radius: 10px;
